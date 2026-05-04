@@ -1,12 +1,201 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Pixel Serpent</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #000;
+      color: #2cff24;
+      text-align: center;
+    }
+
+    header {
+      padding: 80px 20px 50px;
+      background: radial-gradient(circle at top, #073d0b, #000 60%);
+    }
+
+    .small-title {
+      letter-spacing: 8px;
+      color: #168f1b;
+      font-size: 22px;
+    }
+
+    h1 {
+      margin: 10px 0;
+      font-size: 64px;
+      color: #2cff24;
+      text-shadow: 0 0 25px #2cff24;
+    }
+
+    h2 {
+      font-size: 34px;
+      color: #2cff24;
+      text-shadow: 0 0 12px #2cff24;
+    }
+
+    h3 {
+      color: #2cff24;
+    }
+
+    p {
+      color: #d8d8d8;
+      line-height: 1.7;
+      font-size: 18px;
+    }
+
+    section {
+      padding: 45px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .subtitle {
+      max-width: 760px;
+      margin: 0 auto;
+      font-size: 20px;
+      color: #e0e0e0;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .card {
+      border: 1px solid #1f9b25;
+      background: #050905;
+      border-radius: 18px;
+      padding: 25px;
+      box-shadow: 0 0 18px rgba(44, 255, 36, 0.15);
+    }
+
+    .cta {
+      display: inline-block;
+      margin-top: 28px;
+      padding: 16px 28px;
+      border: 2px solid #2cff24;
+      border-radius: 14px;
+      color: #2cff24;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 0 16px rgba(44, 255, 36, 0.3);
+    }
+
+    .support {
+      border-top: 1px solid #143d14;
+    }
+
+    a {
+      color: #2cff24;
+    }
+
+    footer {
+      padding: 30px;
+      color: #777;
+      border-top: 1px solid #102b10;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 48px;
+      }
+
+      .small-title {
+        font-size: 18px;
+      }
+    }
+  </style>
 </head>
-<body style="font-family: Arial; text-align:center; padding:40px;">
-  <h1>Pixel Serpent</h1>
-  <p>Contatti: davide.044.dev@gmail.com</p>
+
+<body>
+  <header>
+    <div class="small-title">PIXEL</div>
+    <h1>SERPENT</h1>
+    <p class="subtitle">
+      Rivivi il mito dello Snake in una veste completamente nuova:
+      gameplay classico, stile moderno e competizione mondiale.
+    </p>
+  </header>
+
+  <section>
+    <h2>Descrizione</h2>
+    <p>
+      Pixel Serpent unisce il fascino del gameplay classico alla competizione moderna.
+      Guida il tuo serpente, mangia le mele e cresci il più possibile, ma attenzione
+      a non colpire le pareti o la tua stessa coda!
+    </p>
+    <p>
+      Sei pronto a diventare il re dei serpenti? Preparati a mettere alla prova
+      i tuoi riflessi e la tua strategia.
+    </p>
+  </section>
+
+  <section>
+    <h2>Perché scegliere Pixel Serpent?</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Modalità Livelli</h3>
+        <p>
+          Supera sfide sempre più difficili e dimostra la tua abilità.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Modalità Infinita</h3>
+        <p>
+          Quanto resisterai? Punta al record assoluto.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Classifica Mondiale</h3>
+        <p>
+          Crea il tuo account, scala la vetta e sfida i giocatori di tutto il mondo.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Grafica Pixel Moderna</h3>
+        <p>
+          Uno stile visivo pulito e accattivante, ottimizzato per i nuovi display.
+        </p>
+      </div>
+    </div>
+
+    <a class="cta" href="#">Prossimamente su App Store</a>
+  </section>
+
+  <section class="support">
+    <h2>Supporto e Contatti</h2>
+
+    <p>
+      Se riscontri problemi con il gioco, hai bisogno di assistenza
+      o vuoi inviarci suggerimenti, puoi contattarci direttamente.
+    </p>
+
+    <p>
+      <strong>Email:</strong><br />
+      <a href="mailto:davide.044.dev@gmail.com">
+        davide.044.dev@gmail.com
+      </a>
+    </p>
+
+    <p>
+      Risponderemo il prima possibile per aiutarti a risolvere
+      qualsiasi problema tecnico.
+    </p>
+  </section>
+
+  <footer>
+    © 2026 Pixel Serpent
+  </footer>
 </body>
 </html>
